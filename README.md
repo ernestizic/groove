@@ -1,3 +1,5 @@
+# Groove Dashboard
+
 ### Built with
 - [React](https://reactjs.org/) - JS library
 - Flexbox

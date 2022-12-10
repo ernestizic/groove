@@ -12,6 +12,7 @@ export const SidebarContainer = styled.div`
     transition: 0.2s ease;
     overflow-y: scroll;
     &::-webkit-scrollbar {
+        display: initial;
             width: 4px;
         }
     &::-webkit-scrollbar-track {
@@ -21,6 +22,9 @@ export const SidebarContainer = styled.div`
     &::-webkit-scrollbar-thumb {
         background: #FBBA12;
         border-radius: 10px;
+    }
+    @media (max-width: 726px) {
+        display: none;
     }
 `
 
@@ -56,6 +60,9 @@ export const SidebarNavigation = styled.nav`
         display: flex;
         align-items: center;
 	}
+    .active {
+        color: #FBBA12;
+    }
     img {
         margin-right: 15px;
     }

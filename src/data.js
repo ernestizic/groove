@@ -1,3 +1,5 @@
+import Burnaboy from './assets/images/burnaboy.png'
+import Gold from './assets/images/adekunle.png'
 export const userPlaylists = [
     {
         id: 1,
@@ -59,4 +61,44 @@ export const userPlaylists = [
         id: 15,
         name: "Gidi Nights"
     },
+]
+
+export const playlists = [
+    {
+        id: 1,
+        cover: <img src={Burnaboy} alt='cover'/>,
+        title: "Daily Vibes 1",
+        Artistes: "Burna Boy, Oxlade, Davido, Tems, Wizkid, Tiwa Savage",
+    },
+    {
+        id: 2,
+        cover: <img src={Gold} alt='cover'/>,
+        title: "Daily Vibes 2",
+        Artistes: "Lojay, Oxlade, Amaa Rae, Rema, Omah Lay, 5Gawd",
+    },
+    {
+        id: 3,
+        cover: <img src={Burnaboy} alt='cover'/>,
+        title: "Daily Vibes 3",
+        Artistes: "Burna Boy, Oxlade, Davido, Tems, Wizkid, Tiwa Savage",
+    },
+    {
+        id: 4,
+        cover: <img src={Burnaboy} alt='cover'/>,
+        title: "Daily Vibes 1",
+        Artistes: "Burna Boy, Oxlade, Davido, Tems, Wizkid, Tiwa Savage",
+    },
+    {
+        id: 4,
+        cover: <img src={Gold} alt='cover'/>,
+        title: "Daily Vibes 2",
+        Artistes: "Lojay, Oxlade, Amaa Rae, Rema, Omah Lay, 5Gawd",
+    },
+    {
+        id: 5,
+        cover: <img src={Burnaboy} alt='cover'/>,
+        title: "Daily Vibes 3",
+        Artistes: "Burna Boy, Oxlade, Davido, Tems, Wizkid, Tiwa Savage",
+    },
+
 ]

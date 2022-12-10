@@ -33,7 +33,7 @@ const Sidebar = () => {
 			<SidebarNavigation>
 				<ul>
 					<li>
-						<NavLink to='/'>
+						<NavLink to='/home'>
 							<img src={HomeIcon} alt='Home icon' />
 							Home
 						</NavLink>
@@ -55,7 +55,7 @@ const Sidebar = () => {
 					</li>
 
 					<li>
-						<NavLink to='/liked_songs'>
+						<NavLink to='/'>
 							<img src={LikeIcon} alt='like icon' />
 							Liked Songs <img src={SpeakerIcon} alt='speaker' style={{marginLeft: '10px'}}/>
 						</NavLink>

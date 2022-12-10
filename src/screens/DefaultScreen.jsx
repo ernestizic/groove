@@ -10,7 +10,10 @@ const DefaultScreen = () => {
         <img src={Banner} alt="banner" />
       </div>
 
-      <h2>Welcome Back!</h2>
+      <header>
+        <h2>Welcome Back!</h2>
+        <p>See more</p>
+      </header>
 
       <div className='playlists'>
         {playlists?.map(playlist => (
@@ -24,8 +27,10 @@ const DefaultScreen = () => {
         ))}
       </div>
 
-
-      <h2>Cheers to the Weekend</h2>
+      <header>
+        <h2>Cheers to the Weekend</h2>
+        <p>See more</p>
+      </header>
 
       <div className='playlists'>
         {playlists?.map(playlist => (

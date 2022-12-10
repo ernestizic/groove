@@ -10,8 +10,23 @@ export const DefaultScreenContainer = styled.div`
         }
     }
 
-    h2 {
-        margin: 20px 0;
+    header {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        h2 {
+            margin: 20px 0;
+            @media (max-width: 726px) {
+                font-size: 12px;
+            }
+        }
+        p{
+            display: none;
+            color: #D9D9D9;
+            @media (max-width: 726px) {
+                display: block;
+            }
+        }
     }
 
     .playlists {

@@ -17,7 +17,7 @@ export const DefaultScreenContainer = styled.div`
         h2 {
             margin: 20px 0;
             @media (max-width: 726px) {
-                font-size: 12px;
+                font-size: 14px;
             }
         }
         p{
